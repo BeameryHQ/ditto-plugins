@@ -1,0 +1,28 @@
+{
+  "name": "ditto-plugins",
+  "version": "1.0.0",
+  "description": "A set of plugins for Ditto 👻 | Easily map anything to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js",
+    "performance": "node --allow-natives-syntax ./node_modules/mocha/bin/_mocha --reporter mocha-performance ./test/index.js",
+    "cover": "NODE_ENV=test istanbul cover _mocha -- -R spec test/index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:BeameryHQ/Ditto.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "beam-uri": "^2.1.1",
+    "humanparser": "^1.10.0",
+    "joi": "^14.3.1",
+    "lodash": "^4.5.1",
+    "moment": "^2.15.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
+}

@@ -1,0 +1,33 @@
+'use strict';
+
+module.exports = {
+	base64Encode: require('./plugins/base64Encode'),
+	cleanString: require('./plugins/cleanString'),
+	cleanEmail: require('./plugins/cleanEmail'),
+	cleanURI: require('./plugins/cleanURI'),
+	concatName: require('./plugins/concatName'),
+	concatString: require('./plugins/concatString'),
+	concatWithComma: require('./plugins/concatWithComma'),
+	createURL: require('./plugins/createURL'),
+	extractName: require('./plugins/extractName'),
+	generateCleanId: require('./plugins/generateCleanId'),
+	generateFacebookImageLink: require('./plugins/generateFacebookImageLink'),
+	generateId: require('./plugins/generateId'),
+	generateIdForLinks: require('./plugins/generateIdForLinks'),
+	generateIdFromLanguageCode: require('./plugins/generateIdFromLanguageCode'),
+	generateUUID: require('./plugins/generateUUID'),
+    getCountryCode: require('./plugins/getCountryCode'),
+    getCountryName: require('./plugins/getCountryName'),
+	getLanguageCode: require('./plugins/getLanguageCode'),
+	getLanguageFromCode: require('./plugins/getLanguageFromCode'),
+	getLinkService: require('./plugins/getLinkService'),
+	getLinkType: require('./plugins/getLinkType'),
+	getValueAtPath: require('./plugins/getValueAtPath'),
+	minBy: require('./plugins/minBy'),
+	normalizeString: require('./plugins/normalizeString'),
+	parseDate: require('./plugins/parseDate'),
+	parseString: require('./plugins/parseString'),
+	splitList: require('./plugins/splitList'),
+	uniqueArray: require('./plugins/uniqueArray'),
+	formatDate: require('./plugins/formatDate')
+};
